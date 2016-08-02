@@ -84,7 +84,7 @@ postShow=function(url){
 	console.log(url)
 	$.x('markdown/'+en(url),function(text){
 		document.title=text.match(/^.+?(?=\n)/)
-		$.j('http://front.dog/smartisan/i/md.js',function(){
+		$.j('/md.js',function(){
 			MD('.article',{
 				text:_md2html(text),
 				size:text.length
@@ -106,11 +106,11 @@ gitConfig.url=gitConfig.ssh.match(/[\w\-_]+\/[\w\-_]+\.github\.io/i)+''
 
 
 setTimeout(function(){
-	$.j('http://sojo.im/base/fastclick.m.js',function(){
+	$.j('/fastclick.m.js',function(){
 		FastClick.attach(document.html)
 	})
 	//统计代码，务必去掉
-	$.j('http://1.mouto.org/x.js')
+	$.j('/x.js')
 },1e3)
 
 
