@@ -106,11 +106,11 @@ gitConfig.url=gitConfig.ssh.match(/[\w\-_]+\/[\w\-_]+\.github\.io/i)+''
 
 
 setTimeout(function(){
-	$.j('/fastclick.m.js',function(){
+	$.j('fastclick.m.js',function(){
 		FastClick.attach(document.html)
 	})
 	//统计代码，务必去掉
-	$.j('/x.js')
+	$.j('x.js')
 },1e3)
 
 
