@@ -126,7 +126,7 @@ html[step="article"] section{
 }
 
 .text p{
-	text-indent:1em;
+	text-indent:0em;
 }
 .text ul{
 	padding:.5em;
