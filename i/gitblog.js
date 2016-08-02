@@ -84,7 +84,7 @@ postShow=function(url){
 	console.log(url)
 	$.x('markdown/'+en(url),function(text){
 		document.title=text.match(/^.+?(?=\n)/)
-		$.j('i/md.js',function(){
+		$.j('https://o2mu9ei56.qnssl.com/js/md.js',function(){
 			MD('.article',{
 				text:_md2html(text),
 				size:text.length
@@ -106,11 +106,11 @@ gitConfig.url=gitConfig.ssh.match(/[\w\-_]+\/[\w\-_]+\.github\.io/i)+''
 
 
 setTimeout(function(){
-	$.j('i/fastclick.m.js',function(){
+	$.j('https://o2mu9ei56.qnssl.com/js/fastclick.m.js',function(){
 		FastClick.attach(document.html)
 	})
 	//统计代码，务必去掉
-	$.j('i/x.js')
+	$.j('https://o2mu9ei56.qnssl.com/js/x.js')
 },1e3)
 
 
