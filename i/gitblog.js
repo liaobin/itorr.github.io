@@ -68,7 +68,7 @@ listShow=function(posts){
 listLoaded=0,
 listLoad=function(){
 	listLoaded=1,
-	$.j('https://api.github.com/repos/'+gitConfig.url+'/contents/markdown?callback=GitBlog.listUpdata')
+	$.j('https://api.leob.in/repos/'+gitConfig.url+'/contents/markdown?callback=GitBlog.listUpdata')
 },
 getHome=function(){
 	html.setAttribute('step','home')
