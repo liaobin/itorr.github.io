@@ -110,7 +110,7 @@ setTimeout(function(){
 		FastClick.attach(document.html)
 	})
 	//统计代码，务必去掉
-	$.j('https://o2mu9ei56.qnssl.com/js/x.js')
+
 },1e3)
 
 
