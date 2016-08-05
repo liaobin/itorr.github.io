@@ -78,7 +78,7 @@ postShow=function(url){
 	html.setAttribute('step','article')
 
 	MD('.article',{
-		text:'<h1>😋😠😪😇</h1>',
+		text:'<h1>😕😬✊✈💦🙈</h1>',
 		size:'233'
 	})
 	console.log(url)
