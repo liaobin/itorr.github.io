@@ -20,4 +20,6 @@ mactype里自带的EasyHK32.dll以及EasyHK64.dll版本过低,导致新系统版
 
 3）成功回退之后，便进入到了之前的状态。接下来就按照上面更新前的步骤来即可。
 
+[转自【碩骅】的帖子](http://tieba.baidu.com/p/4711944449)
+
 ![](https://o2mu9ei56.qnssl.com/win10.jpg)
