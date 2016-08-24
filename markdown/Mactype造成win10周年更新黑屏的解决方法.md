@@ -1,6 +1,5 @@
 # Mactype造成win10周年更新黑屏的解决方法
-mactype里自带的EasyHK32.dll以及EasyHK64.dll版本过低,导致新系统版本号无法使用
-解决办法:
+mactype里自带的EasyHK32.dll以及EasyHK64.dll版本过低,导致新系统版本号无法使用の解决办法:
 
 > 在更新前需要做的
 
