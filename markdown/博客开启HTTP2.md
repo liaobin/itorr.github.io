@@ -6,5 +6,4 @@
 
 <video id="video" controls="" preload="none" poster="https://i.niupic.com/images/2016/08/28/E4JeaO.png">
       <source id="mp4" src="https://m.leob.in/test.mp4" type="video/mp4">
-      <p>Your user agent does not support the HTML5 Video element.</p>
 </video>
