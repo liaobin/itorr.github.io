@@ -4,6 +4,6 @@
 
 嗯,所以就开启了.顺便测试下html5播放
 
-<video id="video" controls="" preload="none" poster="https://i.niupic.com/images/2016/08/28/E4JeaO.png">
+<video id="video" controls="" preload="none" width="700" height="450" poster="https://i.niupic.com/images/2016/08/28/E4JeaO.png">
       <source id="mp4" src="https://m.leob.in/test.mp4" type="video/mp4">
 </video>
