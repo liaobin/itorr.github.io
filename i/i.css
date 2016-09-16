@@ -44,6 +44,8 @@ section article{
 }
 section article h3{
 	margin:0 4em 0 3em;
+}
+section article h3 a{
 	text-decoration:none;
 }
 section article .num{
